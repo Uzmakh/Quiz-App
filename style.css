@@ -1,59 +1,55 @@
 /* General Styling */
 
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Kaushan+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Kaushan+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-   
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: "Roboto", sans-serif;
-    padding: 30px;
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 30px;
 }
 
 /* Quiz Container */
 #quiz {
-    width: 50%;
-    margin: 0 auto;
-    padding: 30px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Question */
 #question {
-    font-size: 1.5em;
-    margin-bottom: 20px;
+  font-size: 1.5em;
+  margin-bottom: 20px;
 }
 
 /* Choices */
 #choices {
-    list-style: none;
-    padding: 0;
-   
+  list-style: none;
+  padding: 0;
 }
 
 #choices li {
-    margin-bottom: 10px;
-   
+  margin-bottom: 10px;
 }
-
 
 /* Submit Button */
 #submit {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 /* Result */
 #result {
-    font-size: 1.2em;
-    margin-top: 20px;
+  font-size: 1.2em;
+  margin-top: 20px;
 }
